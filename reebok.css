@@ -1,0 +1,221 @@
+body{
+    margin: 0px;
+    padding:0px;
+
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.header-bg{
+    background-color: #000;
+}
+.header{
+    
+    width: 100%;
+   text-align: center;
+    color:white;
+    
+    font-weight: normal;
+    height: 40px;
+    display: block;
+    padding-top: 10px;
+    border-bottom: solid 1px rgb(43, 42, 42);
+
+    
+}
+.visit{
+    text-align: center;
+    color:white;
+
+    position: absolute;
+    font-size: 5px;
+    margin-left: 504px;
+    padding:0px 0px;
+
+    display:flex;
+    
+
+}
+.adidaslogo{
+    width: 80px;
+    height: 25px;
+    margin-left: 10px;
+}
+.login{
+    text-align: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    
+}
+.login a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    
+
+}
+.contents{
+ 
+    width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 10px;
+}
+.contents ul{
+    padding:px;
+    margin: 0px;
+    
+}
+.contents ul li{
+  
+    display:inline-block;
+    color:white;
+    list-style: none; 
+    padding-left: 30px;
+
+   
+}
+.contents a{
+    text-decoration: none;
+    color:white;
+}
+.red{
+    color:rgb(216, 12, 12);
+    
+}
+.contents a:hover{
+    text-decoration: underline;
+
+}
+.logo{
+    width:80px;
+    height:40px;
+}
+.search{
+    width:20px;
+    height:20px;
+    position: absolute;
+    padding-top: 8px;
+    padding-left: 5px;
+}
+.cart{
+    width:17px;
+    height:17px;
+}
+.srch{
+    border-radius: 7px;
+    padding:10px;
+    border: 0px;
+    padding-left: 30px;
+
+}
+.fitness{
+   
+    height:300px;
+    
+}
+.fitness img{
+    width:100%;
+    float: left;
+}
+.images{
+    display: flex;
+    padding:10px;  
+}
+.images div{
+    padding:10px;
+}
+.images div img{
+    width:100%;
+}
+ 
+.images a{
+    color:black;
+    text-align: center;
+}
+.button{
+    text-align: center;
+    font-size:12px;
+    background-color: #e9eaed;
+    height:150px;
+    
+}
+.btn1,.btn2,.btn3,.btn4{
+    border-radius: 60px;
+    color:white;
+    background-color: black;
+    width:150px;
+    height:50px;
+    cursor:pointer;
+
+}
+.explore{
+    text-align: center;
+}
+.exploreimg{
+    display: flex;
+    padding:10px;  
+}
+.exploreimg div{
+    padding:10px;
+    text-align: center;
+}
+.exploreimg div img{
+    width:100%;
+}
+.explore1,.explore2{
+    background-color: white;
+    color:black;
+    align-items: center;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(51, 43, 43);
+    color:white;
+    padding:10px;
+    
+}
+.footer1 div{
+    padding:10px;
+    padding-right:auto;
+    padding-left: auto;
+}
+.footerlinks{
+    background-color: rgb(39, 31, 31);
+    display:flex;
+}
+.footerlinks ul li{
+    list-style: none;
+    line-height: 25px;
+}
+.footerlinks a{
+    text-decoration: none;
+    color:white;
+
+}
+.footerlinks a:hover{
+    text-decoration: underline;
+}
+.head{
+    color: #828280;
+}
+.color-red{
+    color: #ab2328 !important;
+}
+.paymenticon{
+    text-align:center;
+    background-color:rgb(39, 31, 31) ;
+}
+.copyright{
+    text-align: center;
+    background-color:rgb(39, 31, 31);
+    color:lightslategray;
+    padding-bottom:10px;
+    padding-top:20px;
+}
